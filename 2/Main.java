@@ -9,10 +9,10 @@ public class Main{
         Scanner input = new Scanner(System.in);
         int num1 = input.nextInt();
         int num2 = input.nextInt();
-        System.out.println(num1 + num2);
-        System.out.println(num1 - num2);
-        System.out.println(num1 * num2);
-        float taqsim = num1 / num2;
-        System.out.println(taqsim);
+        System.out.println("Sum: " + (num1 + num2) );
+        System.out.println("Subtraction: " + (num1 - num2) );
+        System.out.println("Multiplication: " + (num1 * num2) );
+        float taqsim = (num1 / num2);
+        System.out.println("Quotient: " + (taqsim) );
     }
 }
